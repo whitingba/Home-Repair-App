@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="adf804fb1b863010b10ca9f6624bcb65" sys_domain="global" table="x_464482_home_repa_home_repair_tasks" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-25 01:54:20</sys_created_on>
+            <sys_id>681948fb1b863010b10ca9f6624bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_464482_home_repa_home_repair_tasks" sys_domain="global" view="Default view">adf804fb1b863010b10ca9f6624bcb65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-25 01:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-25 01:54:20</sys_created_on>
+            <sys_id>ec1948fb1b863010b10ca9f6624bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_464482_home_repa_home_repair_tasks" sys_domain="global" view="Default view">adf804fb1b863010b10ca9f6624bcb65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-25 01:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-25 01:54:20</sys_created_on>
+            <sys_id>641948fb1b863010b10ca9f6624bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_464482_home_repa_home_repair_tasks" sys_domain="global" view="Default view">adf804fb1b863010b10ca9f6624bcb65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-25 01:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-25 01:54:20</sys_created_on>
+            <sys_id>e81948fb1b863010b10ca9f6624bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_464482_home_repa_home_repair_tasks" sys_domain="global" view="Default view">adf804fb1b863010b10ca9f6624bcb65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-25 01:54:20</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-25 01:54:20</sys_created_on>
+            <sys_id>601948fb1b863010b10ca9f6624bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_464482_home_repa_home_repair_tasks" sys_domain="global" view="Default view">adf804fb1b863010b10ca9f6624bcb65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-25 01:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-25 01:54:20</sys_created_on>
+            <sys_id>e41948fb1b863010b10ca9f6624bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_464482_home_repa_home_repair_tasks" sys_domain="global" view="Default view">adf804fb1b863010b10ca9f6624bcb65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-25 01:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-25 01:54:20</sys_created_on>
+            <sys_id>6c1948fb1b863010b10ca9f6624bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_464482_home_repa_home_repair_tasks" sys_domain="global" view="Default view">adf804fb1b863010b10ca9f6624bcb65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-25 01:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-25 01:54:20</sys_created_on>
+            <sys_id>e01948fb1b863010b10ca9f6624bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_464482_home_repa_home_repair_tasks" sys_domain="global" view="Default view">adf804fb1b863010b10ca9f6624bcb65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-25 01:54:20</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-25 01:54:20</sys_created_on>
+            <sys_id>681948fb1b863010b10ca9f6624bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_464482_home_repa_home_repair_tasks" sys_domain="global" view="Default view">adf804fb1b863010b10ca9f6624bcb65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-25 01:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-25 01:54:20</sys_created_on>
+            <sys_id>ec1948fb1b863010b10ca9f6624bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_464482_home_repa_home_repair_tasks" sys_domain="global" view="Default view">adf804fb1b863010b10ca9f6624bcb65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-25 01:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-25 01:54:20</sys_created_on>
+            <sys_id>641948fb1b863010b10ca9f6624bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_464482_home_repa_home_repair_tasks" sys_domain="global" view="Default view">adf804fb1b863010b10ca9f6624bcb65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-25 01:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_464482_home_repa_home_repair_tasks</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-25 01:53:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>adf804fb1b863010b10ca9f6624bcb65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_464482_home_repa_home_repair_tasks</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Home Repair" source="x_464482_home_repa">6f884cbb1b863010b10ca9f6624bcb5d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Home Repair">6f884cbb1b863010b10ca9f6624bcb5d</sys_scope>
+            <sys_update_name>sys_ui_section_adf804fb1b863010b10ca9f6624bcb65</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-25 01:53:51</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
