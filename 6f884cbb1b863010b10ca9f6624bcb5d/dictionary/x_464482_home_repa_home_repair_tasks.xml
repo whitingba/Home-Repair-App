@@ -1,3 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Home Repair Tasks" max_length="40" name="x_464482_home_repa_home_repair_tasks" type="collection"/>
+    <element extends="task" label="Home Repair Tasks" max_length="40" name="x_464482_home_repa_home_repair_tasks" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="kitchen" label="Room" mandatory="true" max_length="40" name="u_room" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Kitchen" sequence="0" value="kitchen"/>
+                <element inactive_on_update="false" label="Master Bedroom" sequence="1" value="master bedroom"/>
+                <element inactive_on_update="false" label="Guest Bedroom" sequence="2" value="guest bedroom"/>
+                <element inactive_on_update="false" label="Master Bathroom" sequence="3" value="master bathroom"/>
+                <element inactive_on_update="false" label="Guest Mathroom" sequence="4" value="guest mathroom"/>
+                <element inactive_on_update="false" label="Garage" sequence="5" value="garage"/>
+            </choice>
+        </element>
+    </element>
 </database>

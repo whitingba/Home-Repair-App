@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_464482_home_repa_home_repair_tasks">u_room=kitchen^EQ<item display_value="Kitchen" endquery="false" field="u_room" goto="false" newquery="false" operator="=" or="false" value="kitchen"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Description becomes madatory if kitchen is selected</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-26 20:20:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>166fc5941b923010b10ca9f6624bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Description becomes madatory if kitchen is selected</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Home Repair" source="x_464482_home_repa">6f884cbb1b863010b10ca9f6624bcb5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Home Repair">6f884cbb1b863010b10ca9f6624bcb5d</sys_scope>
+        <sys_update_name>sys_ui_policy_166fc5941b923010b10ca9f6624bcbca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-26 20:20:05</sys_updated_on>
+        <table>x_464482_home_repa_home_repair_tasks</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
