@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_464482_home_repa_home_repair_tasks</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-25 01:52:54</sys_created_on>
+        <sys_id>5bb8c0fb1b863010b10ca9f6624bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_464482_home_repa_home_repair_tasks</sys_name>
+        <sys_package display_value="Home Repair" source="x_464482_home_repa">6f884cbb1b863010b10ca9f6624bcb5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Home Repair">6f884cbb1b863010b10ca9f6624bcb5d</sys_scope>
+        <sys_update_name>ua_table_licensing_config_5bb8c0fb1b863010b10ca9f6624bcbe7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-25 01:52:54</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>

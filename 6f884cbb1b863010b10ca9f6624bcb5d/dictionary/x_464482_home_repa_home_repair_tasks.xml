@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Home Repair Tasks" max_length="40" name="x_464482_home_repa_home_repair_tasks" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="kitchen" label="Room" mandatory="true" max_length="40" name="u_room" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Master Bathroom" sequence="0" value="master bathroom"/>
+                <element inactive_on_update="false" label="Master Bedroom" sequence="1" value="master bedroom"/>
+                <element inactive_on_update="false" label="Guest Bathroom" sequence="2" value="guest bathroom"/>
+                <element inactive_on_update="false" label="Guest Bedroom" sequence="3" value="guest bedroom"/>
+                <element inactive_on_update="false" label="Kitchen" sequence="4" value="kitchen"/>
+                <element inactive_on_update="false" label="Garage" sequence="5" value="garage"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_task" choice_table="x_464482_home_repa_home_repair_tasks" dependent="u_room" dependent_on_field="u_room" label="task" max_length="40" name="u_task" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="guest bedroom" inactive_on_update="false" label="Ceiling Fan" value="ceiling fan 2"/>
+                <element dependent_value="master bedroom" inactive_on_update="false" label="Ceiling Fan" value="ceiling fan"/>
+                <element dependent_value="guest bathroom" inactive_on_update="false" label="Faucet" value="guest faucet"/>
+                <element dependent_value="master bathroom" inactive_on_update="false" label="Faucet" value="master faucet"/>
+                <element dependent_value="garage" inactive_on_update="false" label="Garage Door" value="garage door"/>
+                <element dependent_value="kitchen" inactive_on_update="false" label="Garbage Disposal" value="disposal"/>
+                <element dependent_value="kitchen; master bedroom" inactive_on_update="false" label="Not Listed" value="not listed"/>
+                <element dependent_value="kitchen" inactive_on_update="false" label="Sink" value="sink"/>
+                <element dependent_value="guest bathroom" inactive_on_update="false" label="Toilet" value="guest toilet"/>
+                <element dependent_value="master bathroom" inactive_on_update="false" label="Toilet" value="master toilet"/>
+            </choice>
+        </element>
+    </element>
+</database>

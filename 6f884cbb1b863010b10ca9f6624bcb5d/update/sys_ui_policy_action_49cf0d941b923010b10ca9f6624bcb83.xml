@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>description</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-26 20:20:28</sys_created_on>
+        <sys_id>49cf0d941b923010b10ca9f6624bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="Home Repair" source="x_464482_home_repa">6f884cbb1b863010b10ca9f6624bcb5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Home Repair">6f884cbb1b863010b10ca9f6624bcb5d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_49cf0d941b923010b10ca9f6624bcb83</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-26 20:20:28</sys_updated_on>
+        <table>x_464482_home_repa_home_repair_tasks</table>
+        <ui_policy display_value="Description becomes madatory if kitchen is selected">166fc5941b923010b10ca9f6624bcbca</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
