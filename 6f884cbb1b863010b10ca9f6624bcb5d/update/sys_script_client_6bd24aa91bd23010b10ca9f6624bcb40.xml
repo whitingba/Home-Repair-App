@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_parts</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Add part to work order for inventory chk</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+
+    //grab value of the parts field
+    var neededPart = g_form.getValue('u_parts');
+
+    //Add a message to the work notes section to check inventory
+    g_form.setValue('work_notes', 'Be sure to check inventory for ' + neededPart + ' before completing work');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-30 21:20:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6bd24aa91bd23010b10ca9f6624bcb40</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Add part to work order for inventory chk</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Home Repair" source="x_464482_home_repa">6f884cbb1b863010b10ca9f6624bcb5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Home Repair">6f884cbb1b863010b10ca9f6624bcb5d</sys_scope>
+        <sys_update_name>sys_script_client_6bd24aa91bd23010b10ca9f6624bcb40</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-30 21:32:34</sys_updated_on>
+        <table>x_464482_home_repa_home_repair_tasks</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
