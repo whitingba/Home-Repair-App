@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Change parts based on the task selected</description>
+        <field>u_task</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set parts list based on task selected</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (newValue == '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	
+	var partNeeded = g_form.getValue('u_parts');
+	
+		//clear all options and then we will add back in what is needed
+
+	
+	//if task is toilet, then remove appropriate parts so only those pertaining to toilet remain
+	if (newValue == 'guest_toilet' || newValue == 'master_toilet') {
+		g_form.removeOption('u_parts', 'splash guard');
+		g_form.removeOption('u_parts', 'flange');
+		g_form.removeOption('u_parts', 'gasket');
+		g_form.removeOption('u_parts', 'drain pipe');
+		g_form.removeOption('u_parts', 'spark plug');
+	}
+	
+	//if task is garbage disposal, then remove appropriate parts so only those pertaining to garbage disposal remain
+	else if (newValue == 'disposal') {
+		g_form.removeOption('u_parts', 'fill valve');
+		g_form.removeOption('u_parts', 'flapper');
+		g_form.removeOption('u_parts', 'handle');
+		g_form.removeOption('u_parts', 'valve washer');
+		g_form.removeOption('u_parts', 'wax bowl ring');
+	}
+	
+	else {
+		g_form.clearOptions('u_parts');
+	}
+	
+	
+	// If the form is loading and it is not a new record, set the u_parts value to the
+    // value from the record before it was loaded
+    if (isLoading && !g_form.isNewRecord()) {
+        g_form.setValue('u_parts', partNeeded);
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-27 17:06:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c4ae5e81b123010b10ca9f6624bcb34</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Set parts list based on task selected</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Home Repair" source="x_464482_home_repa">6f884cbb1b863010b10ca9f6624bcb5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Home Repair">6f884cbb1b863010b10ca9f6624bcb5d</sys_scope>
+        <sys_update_name>sys_script_client_8c4ae5e81b123010b10ca9f6624bcb34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-30 16:09:41</sys_updated_on>
+        <table>x_464482_home_repa_home_repair_tasks</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

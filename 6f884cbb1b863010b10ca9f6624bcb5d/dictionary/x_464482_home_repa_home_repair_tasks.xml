@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Home Repair Tasks" max_length="40" name="x_464482_home_repa_home_repair_tasks" sizeclass="0" type="collection">
+    <element extends="task" label="Home Repair Tasks" max_length="40" name="x_464482_home_repa_home_repair_tasks" sizeclass="3" type="collection">
+        <element label="Is toilet functioning" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Parts" max_length="40" name="u_parts" type="string">
+            <choice>
+                <element inactive_on_update="false" label="fill valve" sequence="0" value="fill valve"/>
+                <element inactive_on_update="false" label="flapper" sequence="1" value="flapper"/>
+                <element inactive_on_update="false" label="handle" sequence="2" value="handle"/>
+                <element inactive_on_update="false" label="valve washer" sequence="3" value="valve washer"/>
+                <element inactive_on_update="false" label="wax bowl ring" sequence="4" value="wax bowl ring"/>
+                <element inactive_on_update="false" label="splash guard" sequence="5" value="splash guard"/>
+                <element inactive_on_update="false" label="flange" sequence="6" value="flange"/>
+                <element inactive_on_update="false" label="gasket" sequence="7" value="gasket"/>
+                <element inactive_on_update="false" label="drain pipe" sequence="8" value="drain pipe"/>
+                <element inactive_on_update="false" label="spark plug" sequence="9" value="spark plug"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="kitchen" label="Room" mandatory="true" max_length="40" name="u_room" type="string">
             <choice>
                 <element inactive_on_update="false" label="Master Bathroom" sequence="0" value="master bathroom"/>
@@ -10,7 +25,7 @@
                 <element inactive_on_update="false" label="Garage" sequence="5" value="garage"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_task" choice_table="x_464482_home_repa_home_repair_tasks" dependent="u_room" dependent_on_field="u_room" label="task" max_length="40" name="u_task" type="string" use_dependent_field="true">
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_task" choice_table="x_464482_home_repa_home_repair_tasks" dependent="u_room" dependent_on_field="u_room" label="Task" max_length="40" name="u_task" type="string" use_dependent_field="true">
             <choice>
                 <element dependent_value="guest bedroom" inactive_on_update="false" label="Ceiling Fan" value="ceiling fan 2"/>
                 <element dependent_value="master bedroom" inactive_on_update="false" label="Ceiling Fan" value="ceiling fan"/>
@@ -18,10 +33,9 @@
                 <element dependent_value="master bathroom" inactive_on_update="false" label="Faucet" value="master faucet"/>
                 <element dependent_value="garage" inactive_on_update="false" label="Garage Door" value="garage door"/>
                 <element dependent_value="kitchen" inactive_on_update="false" label="Garbage Disposal" value="disposal"/>
-                <element dependent_value="kitchen; master bedroom" inactive_on_update="false" label="Not Listed" value="not listed"/>
                 <element dependent_value="kitchen" inactive_on_update="false" label="Sink" value="sink"/>
-                <element dependent_value="guest bathroom" inactive_on_update="false" label="Toilet" value="guest toilet"/>
-                <element dependent_value="master bathroom" inactive_on_update="false" label="Toilet" value="master toilet"/>
+                <element dependent_value="guest bathroom" inactive_on_update="false" label="Toilet" value="guest_toilet"/>
+                <element dependent_value="master bathroom" inactive_on_update="false" label="Toilet" value="master_toilet"/>
             </choice>
         </element>
     </element>

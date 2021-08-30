@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_task" table="x_464482_home_repa_home_repair_tasks">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_boolean_1" table="x_464482_home_repa_home_repair_tasks">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
-        <choice_field>u_task</choice_field>
-        <choice_table>x_464482_home_repa_home_repair_tasks</choice_table>
-        <column_label>Task</column_label>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Is toilet functioning</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent>u_room</dependent>
-        <dependent_on_field>u_room</dependent_on_field>
+        <dependent/>
+        <dependent_on_field/>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_task</element>
+        <element>u_boolean_1</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_464482_home_repa_home_repair_tasks</name>
@@ -47,20 +47,20 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-26 20:27:57</sys_created_on>
-        <sys_id>c38115181b923010b10ca9f6624bcbd7</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Task</sys_name>
+        <sys_created_on>2021-08-27 16:24:20</sys_created_on>
+        <sys_id>4863ad641b123010b10ca9f6624bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Is toilet functioning</sys_name>
         <sys_package display_value="Home Repair" source="x_464482_home_repa">6f884cbb1b863010b10ca9f6624bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Home Repair">6f884cbb1b863010b10ca9f6624bcb5d</sys_scope>
-        <sys_update_name>sys_dictionary_x_464482_home_repa_home_repair_tasks_u_task</sys_update_name>
+        <sys_update_name>sys_dictionary_x_464482_home_repa_home_repair_tasks_u_boolean_1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-27 16:54:15</sys_updated_on>
+        <sys_updated_on>2021-08-27 16:24:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>true</use_dependent_field>
+        <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
